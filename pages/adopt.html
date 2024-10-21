@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/adopt.css">
+    <title>Adopt a pet</title>
+</head>
+
+<body>
+    <header>
+        <img src="../assets/images/favicon.png" alt="logo">
+        <a href="/pages/index.html" class="logo">Paws And Home</a>
+        <nav class="navigation">
+            <a href="/pages/index.html">Home</a>
+            <a href="/pages/adopt.html">Adopt a Pet</a>
+            <a href="/pages/guide.html">Pet Care Guide</a>
+            <a href="/pages/community.html">Community</a>
+            <a href="/pages/admin.html">Admin</a>
+        </nav>
+    </header>
+    <main>
+        <form id="pet-suggestion-form">
+            <label for="lifestyle">What is your lifestyle?</label>
+            <select id="lifestyle" name="lifestyle">
+                <option value="active">Active</option>
+                <option value="lazy">Lazy</option>
+            </select>
+
+            <label for="living-situation">What is your living situation?</label>
+            <select id="living-situation" name="living-situation">
+                <option value="apartment">Apartment</option>
+                <option value="house">House</option>
+            </select>
+
+            <label for="pet-preferences">What type of pet do you prefer?</label>
+            <select id="pet-preferences" name="pet-preferences">
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+            </select>
+
+            <button type="submit">Get Pet Suggestions</button>
+        </form>
+
+        <div id="pet-suggestions">
+            <section id="adopt-carosual" class="adopt-carosual">
+                <p id="noSuggestP">Click Get Pet Suggestions</p>
+                <div class="suggest" name="cat-active-house">
+                    <img src="../assets/images/adopt/cat1.jpg" alt="">
+                    <div>
+                        <div class="flexDiv">
+                            <p>Name: </p> 
+                            <span>kitty</span>
+                        </div>
+                        <div class="flexDiv">
+                            <p>Age: </p>
+                            <span>2 years</span>
+                        </div>
+                        <div id="breed" class="flexDiv">
+                            <p>breed:</p>
+                            <span>Medium Sized Cat with a fluffy Coat Which need daily brushing</span>
+                        </div>
+                        <div class="flexDiv">
+                            <p>Personality: </p>
+                            <span>Low energy and not very playful and very affectionate</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="suggest" name="cat-active-apartment">
+                    <img src="../assets/images/adopt/cat2.jpeg" alt="">
+                    <div>
+                        <div class="flexDiv">
+                            <p>Name: </p>
+                            <span>Olive</span>
+                        </div>
+                        <div class="flexDiv">
+                        <p>Age: </p>
+                        <span>6 months</span>
+                        </div>
+                        <div id="breed" class="flexDiv"><p>breed: </p>
+                            <span>Small sized Cat with a Medium length Coat that need weekly brushing</span>
+                        </div>
+                        <div class="flexDiv">
+                            <p>Personality: </p>
+                            <span>Medium energy and not very playful and affectionate</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="suggest" name="cat-lazy-house">
+                    <img src="../assets/images/adopt/cat3.jpg" alt="">
+                    <div>
+                        <div class="flexDiv">
+                        <p>Name: </p>
+                        <span>Pepper</span>
+                        </div>
+                        <div class="flexDiv">
+                        <p>Age: </p>
+                        <span>4 years</span>
+                        </div>
+                        <div id="breed" class="flexDiv">
+                            <p>breed: </p>
+                            <span>Large Sized Cat with a smooth Coat that need occasional brushing</span>
+                        </div>
+                        <div class="flexDiv">
+                            <p>Personality: </p>
+                            <span>Low energy and very playful and affectionate</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="suggest" name="cat-lazy-apartment">
+                    <img src="../assets/images/adopt/cat4.jpeg" alt="">
+                    <div>
+                        <div class="flexDiv">
+                            <p>Name: </p>
+                            <span>Spooky</span>
+                        </div>
+                        <div class="flexDiv">
+                            <p>Age: </p>
+                            <span>1 year and a month</span>
+                        </div>
+                        <div id="breed" class="flexDiv">
+                            <p>breed:</p>
+                            <span>Small sized Cat with a Medium length Coat that need weekly brushing</span>
+                        </div>
+                        <div class="flexDiv">
+                            <p>Personality: </p>
+                            <span>High Energy and very playful and somewhat affectionate</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="suggest" name="dog-active-house">
+                    <img src="../assets/images/adopt/dog1.jpeg" alt="">
+                    <div>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="suggest" name="dog-active-apartment">
+                    <img src="../assets/images/adopt/dog2.jpeg" alt="">
+                    <div>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="suggest" name="dog-lazy-house">
+                    <img src="../assets/images/adopt/dog3.jpg" alt="">
+                    <div>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="suggest" name="dog-lazy-apartment">
+                    <img src="../assets/images/adopt/dog4.jpg" alt="">
+                    <div>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="../assets/js/adopt.js"></script>
+</body>
+</html>
+

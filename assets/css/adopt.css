@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #3a6cf4;
+}
+
+.logo {
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a {
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover {
+    color: #601cfc;
+}
+
+/* Adopt page */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form#pet-suggestion-form {
+    margin-top: 150px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+select {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3a6cf4;
+    color: #fff;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #601cfc;
+}
+
+#pet-suggestions {
+    width: 50%;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.adopt-carosual div img {
+    width: 420px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.flexDiv { 
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+}
+
+.suggest img { 
+    margin: 30px 130px;
+}
+
+.flexDiv p { 
+    font-weight: bold;
+    font-size: 22px;
+    color: #3a6cf4;
+}
+.flexDiv span { 
+    color: #a2a2a2;
+    margin-left: 5px;
+}
+
+div.suggest { 
+    display: none;
+}
+
+#noSuggestP { 
+    width: fit-content;
+    margin: 10px auto;
+}
